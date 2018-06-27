@@ -1,0 +1,88 @@
+Linux Commands
+(/) - root
+(~) - home
+cd - change directory/ home directory
+cd.. -one step before
+cd- - home
+cd dirname - directory
+vi filename - displays the existing file
+cd. - current directory
+man - commands will be displayed
+ls - list
+ls-l - long list will be displayed
+ls-ltr - ordered list/most recent (l is for list,t is for time,r is for recursive)
+ls-lt - sort by time, newest comes first
+ls -lR - recursive printing including sub-directories
+ls-a - to show hidden files
+ls-r - list files in reverse order
+ls-la - long list of hidden files
+ls-ld - list of directories
+pwd - present working directory
+clear - to clear
+touch - new file creation
+cat - it displays contents of the file
+head - will display lines from top
+chmod - to change mode [Ex: chmod 777 vineela (7-r,7-w,7-x,vineela-user/group)]
+chgrp/chown - to change the groupname
+sudo -i - will take to root user
+history - to see all the commands
+| pipe - is used as connection between 2 commands
+sudo groupadd new name - to add a group or user name
+move command -  to move one file to another with no copy of data in the previous file and to rename a file or directory
+rm-r filename/directory name - to delete the file or directory with files or data in it.
+rmdir dirname - to remove the directory which is empty
+
+IF you want to see all available users : compgen -u
+
+VI SHORTCUTS
+
+i - insert text
+:wq! - to save and exit
+:q! - to exit without saving it
+^ -  will take the cursor to the beginning of the line
+$ - will take the cursor to the end of the line
+d^ - to get to the beginning of the line
+E - will take you to the end of the line
+L - will take you to the bottom of the screen
+k - one step before
+H - to the top of the screen
+a - insert text after the cursor
+I - insert text before the cursor
+zero(0) - goes to the first position of the current line
+o(aplhabet) - goes to the next line and starts inserting
+O(alphabet caps) - goes to the previous line and starts inserting
+J - to join or merge 2 lines
+j - is to go to the next line
+/n - takes you to the respective word after slash
+:n - to go to a number
+: set a number - to set a number
+: set nonumber - to remove setting number
+/A - to search a stream
+:/s/oldname/newname - to replace the names
+:sh - execute shell commands
+
+COPY AND PASTE COMMANDS in VI:
+
+3yy - to copy all lines together
+yy3 - to copy line by line
+p - to paste
+
+DELETE OPTIONS in VI
+
+:%d - is to delete the entire text in the file
+dw - to delete a word
+dd - to delete a line
+u - to undo delete
+x - to delete a line
+X - to delete a character at a time
+d$/D - to delete the line after the cursor
+d^ - deletes the characters before the cursor
+
+TO GO INTO A VI TEXT EDITOR
+vi 
+vi filename
+:e eidt new file
+
+TO INSTALL ANYTHING IN LINUX:
+$ sudo apt-get install http
+
